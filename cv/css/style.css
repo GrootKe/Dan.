@@ -287,3 +287,25 @@ main > article ~ article {
 	text-decoration: none;
 	color: inherit;
 }
+.cv-download {
+      display: flex;
+      justify-content: center; /* Centers the button */
+      margin: 0 auto;
+      padding-bottom: 10px;
+  }
+
+  .btn-primary {
+      display: inline-block; /* Inline block for padding and margin */
+      padding: 10px 20px; /* Adjust padding as needed */
+      background-color: white; /* Initial background color */
+      color: black; /* Initial text color */
+      text-decoration: none; /* Remove underline from link */
+      border: 2px solid black; /* Optional: Add a border */
+      border-radius: 5px; /* Optional: Rounded corners */
+      transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+
+  .btn-primary:hover {
+      background-color: black; /* Background color on hover */
+      color: white; /* Text color on hover */
+  }
